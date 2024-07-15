@@ -1,0 +1,71 @@
+name: my_flutter_module
+description: "A new Flutter module project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  flutter_riverpod: ^1.0.3
+  injectable:
+  dio: ^4.0.4
+  hive: ^2.0.5
+  hive_flutter: ^1.1.0
+  freezed_annotation:
+  json_annotation:
+  get_it:
+  flutter_screenutil: ^5.4.0
+  responsive_builder: ^0.4.1
+  easy_localization: ^3.0.0
+  url_strategy: ^0.2.0
+  url_launcher: ^6.0.20
+  flutter_svg:
+  http_parser:
+  mime_type:
+  auto_size_text: ^3.0.0
+  info_popup: ^2.4.6
+#  file_picker: ^8.0.3
+#  image_picker: ^1.1.2
+#  js:
+  fluttertoast: ^8.0.8
+  flutter_custom_clippers:
+  simple_gradient_text: ^1.2.4
+  lottie: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  build_runner:
+  freezed:
+  json_serializable:
+  injectable_generator:
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/lang/
+    - assets/lottie/
+    - assets/svg/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+        - asset: assets/fonts/Roboto-Regular.ttf
+
+  module:
+    androidX: true
+    androidPackage: com.example.my_flutter_module
+    iosBundleIdentifier: com.example.myFlutterModule

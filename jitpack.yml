@@ -1,0 +1,7 @@
+jdk:
+  - openjdk8
+
+android:
+  build_tool : 34.0.0
+  compile_sdk: 33
+  target_sdk: 33
